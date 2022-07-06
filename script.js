@@ -11,6 +11,7 @@ document.querySelector(".btn2").addEventListener("click", function () {
   secretNum = Math.trunc(Math.random() * 10) + 1;
   document.querySelector(".btn3").disabled = false;
   document.querySelector(".guess").value = "";
+  document.querySelector(".msg1").textContent = "Start Guessing...";
 });
 
 let secretNum = Math.trunc(Math.random() * 10) + 1;
@@ -23,6 +24,8 @@ document.querySelector(".btn3").addEventListener("click", function () {
 
   if (curr === secretNum) {
     document.querySelector(".msg1").textContent = "🎉 Correct Number!";
+    turns++;
+    document.querySelector(".score").textContent = turns;
     if (turns < highScore) {
       highScore = turns;
       document.querySelector(".hscore").textContent = turns;
