@@ -3,7 +3,7 @@
 Guess the correct number in minimum possible turns. 
 <br>Made using HTML, CSS, JAVASCRIPT.
 
-### Wanna see this in action ? [Live Demo](https://github.com/lakpro/guessnumber)
+### Wanna see this in action ? [Live Demo](https://lakpro.github.io/guessnumber/)
 
 ## 1) Landing/HOME page
 ![demo1](https://user-images.githubusercontent.com/73340463/177430706-336c9c14-ed93-406c-b9fa-4f2b2d3570f5.jpg)
