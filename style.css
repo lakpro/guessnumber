@@ -25,6 +25,7 @@ main {
 }
 
 .love {
+  display: block;
   position: absolute;
   bottom: 2vh;
   font-size: 2.25vw;
