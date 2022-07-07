@@ -1,36 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>My Website</title>
-    <link rel="stylesheet" href="./style.css" />
-    <link rel="icon" href="./favicon.ico" type="image/x-icon" />
-  </head>
-  <body>
-    <main>
-        <div class="hide1">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Guess Number</title>
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="icon" href="logo.png" type="image/x-icon" />
+  <script src="https://kit.fontawesome.com/c27f3d4841.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <main>
+    <div class="hide1">
       <h1 class="heading">GUESS THE NUMBER</h1>
       <button class="btn btn1">PLAY</button>
     </div>
     <div class="hide2">
       <h1 class="heading hd2">MAKE A GUESS</h1>
-    <div class="msg">(Between 1 and 10)</div>
+      <div class="msg">(Between 1 and 10)</div>
 
-    <div class="line">
-      <input class="guess"></input>
-      <button class="btn btn3">SUBMIT</button>
+      <div class="line">
+        <input class="guess"></input>
+        <button class="btn btn3">SUBMIT</button>
+      </div>
+
+      <div class="msg1">Start Guessing...</div>
+      <div class="line">
+        <div class="msg">💯 Turns: <span class="score">0</span></div>
+        <div class="msg">🥇 High Score: <span class="hscore">-</span></div>
+      </div>
+      <button class="btn btn2">PLAY AGAIN</button>
     </div>
+  </main>
+  <script src="script.js"></script>
+  <div class="love">
+    <p>Made with ❤️ by <a href="https://github.com/lakpro/guessnumber">LAKPRO</a></p>
+  </div>
+</body>
 
-    <div class="msg1">Start Guessing...</div>
-    <div class="line">
-    <div class="msg">💯 Turns: <span class="score">0</span></div>
-    <div class="msg">🥇 High Score: <span class="hscore">-</span></div>
-</div>    
-<button class="btn btn2">PLAY AGAIN</button>
-</div>
-</main>
-    <script src="script.js"></script>
-  </body>
+
 </html>

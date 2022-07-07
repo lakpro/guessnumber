@@ -1,11 +1,14 @@
 document.querySelector(".btn1").addEventListener("click", function () {
   document.querySelector(".hide1").style.display = "none";
   document.querySelector(".hide2").style.display = "flex";
+  document.querySelector(".love").style.display = "none";
 });
 
 document.querySelector(".btn2").addEventListener("click", function () {
   document.querySelector(".hide1").style.display = "flex";
   document.querySelector(".hide2").style.display = "none";
+  document.querySelector(".love").style.display = "block";
+
   turns = 0;
   document.querySelector(".score").textContent = turns;
   secretNum = Math.trunc(Math.random() * 10) + 1;
