@@ -14,7 +14,7 @@ document.querySelector(".btn2").addEventListener("click", function () {
   document.querySelector(".love").style.display = "block";
   turns = 0;
   document.querySelector(".score").textContent = turns;
-  secretNum = Math.trunc(Math.random() * 10) + 1;
+  secretNum = Number(Math.trunc(Math.random() * end) + start);
   document.querySelector(".btn3").disabled = false;
   document.querySelector(".guess").value = "";
   document.querySelector(".msg1").textContent = "Start Guessing...";
